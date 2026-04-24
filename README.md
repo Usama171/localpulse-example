@@ -15,7 +15,23 @@ It provides a persistent operation queue, retries with backoff, conflict handlin
 
 ## Quick start
 
-Add the module dependency in your app:
+If you installed LocalPulse from Maven Central, add:
+
+```kotlin
+implementation("io.github.usama171:localpulse:0.1.1")
+```
+
+Maven:
+
+```xml
+<dependency>
+  <groupId>io.github.usama171</groupId>
+  <artifactId>localpulse</artifactId>
+  <version>0.1.1</version>
+</dependency>
+```
+
+If you are using this repository directly as a multi-module project, add the local module dependency:
 
 ```kotlin
 implementation(project(":localpulse"))
